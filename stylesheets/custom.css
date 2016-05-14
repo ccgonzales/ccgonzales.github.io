@@ -1,8 +1,22 @@
+.project-tagline::before { content: "\f053"; font: 24px/1 FontAwesome;}
+.project-tagline::after { content: "\f054"; font: 24px/1 FontAwesome;}
+
+
 .project {
 	margin-bottom: 1em;
 }
 
-.project__link::after { content: "\f0c1"; font: 14px/1 FontAwesome;}
+.project a {
+	transition: color 0.5s ease;
+	color: #159957;
+}
+.project a:hover { 
+	cursor: pointer; 
+	text-decoration: none;
+	color: #1E6BC9;
+}
+
+.project__link::after { content: " \f0c1"; font: 1.25rem/1 FontAwesome;}
 
 .project__content {
 	display: flex;
@@ -11,6 +25,7 @@
 
 .project__thumbnail {
 	margin: 0 1em; 
+	min-width: 25%;
 }
 
 .project__thumbnail img { border: 1px solid #ccc; }

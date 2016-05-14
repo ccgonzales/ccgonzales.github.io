@@ -94,15 +94,24 @@ a {
 
 @media screen and (min-width: 64em) {
   .project-tagline {
-    font-size: 1.25rem; } }
+    font-size: 2.25rem;
+    border-top: 1px solid #ebebeb;
+    padding: .75rem;
+    margin: .75rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-tagline {
-    font-size: 1.15rem; } }
+    font-size: 1.55rem; 
+    border-top: 1px solid #ebebeb;
+    padding: .25rem;
+    margin: .25rem;} }
 
 @media screen and (max-width: 42em) {
   .project-tagline {
-    font-size: 1rem; } }
+    font-size: 1rem; 
+    border-top: 1px solid #ebebeb;
+    padding: .25rem;
+    margin: .25rem;} }
 
 .main-content :first-child {
   margin-top: 0; }
