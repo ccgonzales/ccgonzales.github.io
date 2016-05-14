@@ -1,0 +1,16 @@
+.project {
+	margin-bottom: 1em;
+}
+
+.project__link::after { content: "\f0c1"; font: 14px/1 FontAwesome;}
+
+.project__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.project__thumbnail {
+	margin: 0 1em; 
+}
+
+.project__thumbnail img { border: 1px solid #ccc; }
