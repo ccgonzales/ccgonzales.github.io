@@ -6,77 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!--
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="stylesheets/custom.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" media="screen">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-    <!-- <script type="text/javascript" src="javascripts/main.js"></script> -->
+    <script type="text/javascript" src="javascripts/main.js"></script>
   </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Christopher Gonzales</h1>
+  <body class="d-flex flex-column">
+    <section class="page-header jumbotron jumbotron-fluid jumbotron__project">
+      <div class="container">
+      <h1 class="project-name display-3">Christopher Gonzales</h1>
       <h2 class="project-tagline">Front-end Web Developer / </h2>
+      <hr class="my-5" >
+      <h4>Over the past 11 years, I've created the front-end for data entry web
+        applications for the University of Pittsburgh, Health Sciences. My responsibilities
+        include developing wireframes, coding HTML and CSS, and developing JavaScript interactions.
+      </h4>
+    </div>
     </section>
 
-    <section class="main-content">
-      <h1>
-<a id="about-me" class="anchor" href="#me" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About Me</h1>
+<section class="main-content container">
 
-<p>Over the past 11 years, I've created the front-end for data entry web applications for the University of Pittsburgh, Health Sciences. My responsibilities include developing wireframes, coding HTML and CSS, and developing JavaScript interactions.</p>
-
+<section class="container">
 <h2>
 <a id="projects" class="anchor" href="#projects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Projects</h2>
-
 <p>My projects at the have been focused on providing interface for business applications. All projects are Java backend utilizing Apache Tiles for a templating framework. Interactions use jQuery along with custom modules. RequireJS is used to manage modules. A custom style SASS framework is used for consistancy across applications.</p>
-
-<section class="project">
-<h3>
-<a id="project-initiation-request-form-pirf" class="anchor" href="#project-initiation-request-form-pirf" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
-Office of Space Management Project Summary</h3>
-<div class="project__content">
-<p>This web application was built to track requests for building infrastructure or improvements. It allows administrators to provide details about the project such as: approval status, funding sources, and location. The form provides logging for any events or notes about the project.
-</p>
-<div class="project__thumbnail">
-  <img src="images/projects/thumbnails/pirf_thumb.png" data-component="project-thumb" data-filename="pirf.png">
-</div>
-</div>
 </section>
 
-<section class="project">
-<h3>
-<a id="research-education-and-compliance-training" class="anchor" href="#research-education-and-compliance-training" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
-<a class="project__link" href="https://react.hs.pitt.edu">Research Education and Compliance Training (REACT)</a></h3>
-<div class="project__content">
-<p>The site provides information for research administrators on obtaining grants, reporting guidelines, and other policies and procedures. A basic content management system was built to allow site administrators to generate articles. Article resources can be managed independently through an Url and Document Manager.
-</p>
-<div class="project__thumbnail">
-<img src="images/projects/thumbnails/react_thumb.png" data-component="project-thumb" data-filename="react.png">
-</div>
-</div>
+<section class="project container">
+  <h3>
+  <a id="project-initiation-request-form-pirf" class="anchor" href="#project-initiation-request-form-pirf" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
+  Office of Space Management Project Summary</h3>
+  <div class="project__content">
+  <p>This web application was built to track requests for building infrastructure or improvements. It allows administrators to provide details about the project such as: approval status, funding sources, and location. The form provides logging for any events or notes about the project.
+  </p>
+  <div class="project__thumbnail">
+    <img class="img-fluid" src="images/projects/thumbnails/pirf_thumb.png" data-component="project-thumb" data-filename="pirf.png" data-image="true">
+  </div>
+  </div>
 </section>
 
-<section class="project">
-<h3>
-<a id="research-training-project" class="anchor" href="#research-education-and-compliance-training" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
-<a class="project__link" href="https://rtp.hs.pitt.edu/">Research Training Project</a></h3>
-<div class="project__content">
-<p>A simple site to match high school or undergraduates who have an interest in scientific research to participate in a university faculty mentorship program. This project is in progress and divided in to phases. The first completed phase is user registration and profile form. Phase 2 consists of a faculty profile. Future phases include listing available mentorships and automatically matching students and faculty based on set criteria.
-</p>
-<div class="project__thumbnail">
-<img src="images/projects/thumbnails/rtp_thumb.png" data-component="project-thumb" data-filename="rtp.png">
-</div>
-</div>
+<section class="project container">
+  <h3>
+  <a id="research-education-and-compliance-training" class="anchor" href="#research-education-and-compliance-training" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
+  <a class="project__link" href="https://react.hs.pitt.edu">Research Education and Compliance Training (REACT)</a></h3>
+  <div class="project__content">
+  <p>The site provides information for research administrators on obtaining grants, reporting guidelines, and other policies and procedures. A basic content management system was built to allow site administrators to generate articles. Article resources can be managed independently through an Url and Document Manager.
+  </p>
+  <div class="project__thumbnail">
+  <img class="img-fluid" src="images/projects/thumbnails/react_thumb.png" data-component="project-thumb" data-filename="react.png" data-modal="<iframe width='640' height='360' src='https://www.youtube.com/embed/JPKNoEGs4bE' frameborder='0' allowfullscreen></iframe>">
+  </div>
+  </div>
 </section>
 
-      <footer class="site-footer">
+<section class="project container">
+  <h3>
+  <a id="research-training-project" class="anchor" href="#research-education-and-compliance-training" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
+  <a class="project__link" href="https://rtp.hs.pitt.edu/">Research Training Project</a></h3>
+  <div class="project__content">
+  <p>A simple site to match high school or undergraduates who have an interest in scientific research to participate in a university faculty mentorship program. This project is in progress and divided in to phases. The first completed phase is user registration and profile form. Phase 2 consists of a faculty profile. Future phases include listing available mentorships and automatically matching students and faculty based on set criteria.
+  </p>
+  <div class="project__thumbnail">
+  <img class="img-fluid" src="images/projects/thumbnails/rtp_thumb.png" data-component="project-thumb" data-filename="rtp.png" data-image="true">
+  </div>
+  </div>
+</section>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+<section class="project container">
+  <h3>Health Sciences People People Plus (HSPP)</h3>
+  <div class="project__content">
+    <p>This web app provides information regarding health sciences faculty at the university. It manages a myriad of data such as tenure tracking, departmental assignments, faculty postions, and budgeting.</p>
+    <div class="project__thumbnail">
+      <img class="img-fluid" src="images/projects/thumbnails/hspp_thumb.png" data-component="project-thumb" data-filename="hspp.png" data-modal="<iframe width='640' height='360' src='https://www.youtube.com/embed/8pHq7eLcQ2k' frameborder='0' allowfullscreen></iframe>">
+    </div>
+  </div>
+</section>
 
-    </section>
+</section>
 
+    <footer class="site-footer d-flex">
+      <div class="container">
+        <span class="site-footer-credits">&copy; Christopher Gonzales</span>
+      </div>
+    </footer>
 
   </body>
 </html>

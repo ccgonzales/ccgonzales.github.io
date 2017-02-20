@@ -1,17 +1,31 @@
+body {
+	min-height: 100vh;
+
+}
+
 .project-tagline::before { content: "\f053"; font: 24px/1 FontAwesome;}
 .project-tagline::after { content: "\f054"; font: 24px/1 FontAwesome;}
 
 
+.main-content {
+	flex: 1 0 auto;
+}
+
 .project {
 	margin-bottom: 1em;
+}
+
+.project-name, .project-tagline {
+	color: white;
+	font-weight: bold;
 }
 
 .project a {
 	transition: color 0.5s ease;
 	color: #159957;
 }
-.project a:hover { 
-	cursor: pointer; 
+.project a:hover {
+	cursor: pointer;
 	text-decoration: none;
 	color: #1E6BC9;
 }
@@ -24,8 +38,16 @@
 }
 
 .project__thumbnail {
-	margin: 0 1em; 
+	margin: 0 1em;
 	min-width: 25%;
 }
 
-.project__thumbnail img { border: 1px solid #ccc; }
+.project__thumbnail img { border: 1px solid #ccc; box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2); transform: rotate(8deg); transition: transform .5s;}
+.project__thumbnail img:hover {box-shadow: none; transform: none; cursor: pointer;}
+
+.site-footer { background-color: #ebebeb; height: 3rem; margin-top: 1rem;}
+
+
+.jumbotron__project {
+	background: linear-gradient(to bottom, #1e5799 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
